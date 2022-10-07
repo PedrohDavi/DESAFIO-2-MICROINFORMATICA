@@ -6,22 +6,41 @@ body, ul, li, p {
  } 
  
  body {
-    max-width: 900px;
+    max-width: 100%;
     margin: 0px auto;
- }
- a {
-   text-decoration:none;
-   color: rgb(2, 53, 163);
+    background: blue;
+
  }
 
-.cabeçalho ul {
-    list-style: none;
-    text-align: center;
-  }
+ header {
+  width: 100%;
+  height: 80px;
+  background: rgb(255, 201, 22);
+ }
+
+ header ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+
+ a {
+   text-decoration:none;
+   color: white
+ }
+
+header h2 {
+  color: rgb(122, 121, 121);
+  margin: 0%;
+  text-align: center;
+}
+
+
 .menu {
     display: flex;
     text-align: center;
   }
+
 .menu li {
     margin-left: 10px;
   }
