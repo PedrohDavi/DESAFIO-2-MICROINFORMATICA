@@ -11,7 +11,7 @@ body, ul, li, p {
 
  header {
   width: auto;
-  height: 18%;
+  height: 20%;
   background: rgb(255, 201, 22);
  }
 
@@ -31,10 +31,20 @@ body, ul, li, p {
   background: rgb(228, 175, 0) ;
  }
 
-header h1 {
+ #title1 {
+  justify-content: center;
+  display: flex;
+  
+ }
+
+#tec {
   color: rgb(122, 121, 121);
   margin: 0%;
-  text-align: center;
+}
+
+#blog {
+  color: white;
+  margin: 0%;
 }
 
 .menu {
@@ -53,14 +63,14 @@ header h1 {
 
 main {
     width: 670px;
-    margin-left: 20%;
+    margin: 0 auto;
     background: white;
     justify-content: center;
   }
 
-.post1 {
-  margin-left: 2%;
-}
+ .post1 {
+  align-items: center;
+} 
 
 .post1 h2 {
   color: rgb(255, 201, 22);
