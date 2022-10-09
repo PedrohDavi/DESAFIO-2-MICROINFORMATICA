@@ -1,12 +1,12 @@
 body, ul, li, p {
-    margin: 0; 
-    padding: 0;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0; 
+  padding: 0;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
  } 
  
  body {
-    max-width: 100%;
+  max-width: 100%;
  }
 
  header {
@@ -34,53 +34,66 @@ body, ul, li, p {
  #title1 {
   justify-content: center;
   display: flex;
-  
  }
+
 
 #tec {
   color: rgb(122, 121, 121);
   margin: 0%;
+  display: inline-block;
 }
 
 #blog {
   color: white;
   margin: 0%;
+  display: inline-block;
 }
 
 .menu {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
   }
 
 .menu li {
-    margin-left: 10px;
+  margin-left: 10px;
   }
 .menu li a {
-    display: block;
-    margin: auto;
-    padding: 10px;
+  display: block;
+  margin: auto;
+  padding: 10px;
   }
 
 main {
-    width: 670px;
-    margin: 0 auto;
-    background: white;
-    justify-content: center;
+  width: 660px;
+  margin: 0 auto;
   }
 
- .post1 {
+.post1 {
   align-items: center;
+  background:white;
+  padding: 0px 10px 0px 10px;
 } 
 
-.post1 h2 {
+.post2 {
+  align-items: center;
+  background: white;
+  padding: 0px 10px 0px 10px;
+}
+
+.post3 {
+  width: 70%;
+}
+
+h2 {
   color: rgb(255, 201, 22);
   margin-bottom: 0%;
 }
 
-.post1 h3 {
+h3 {
   margin-top: 0%;
 }
 
-.post1 p {
+ p {
   text-align: justify;
 }
+
