@@ -64,9 +64,21 @@ body, ul, li, p {
   }
 
 main {
-  width: 660px;
+  width: 660px;;
   margin: 0 auto;
   }
+
+nav {
+  height: 210px; 
+  width: 185px;
+  background: white;
+  display: block; 
+  position: relative;
+  left: 103%; 
+  bottom: 1178px;
+  padding: 10px;
+  }
+  
 
 .post1 {
   align-items: center;
@@ -80,8 +92,14 @@ main {
   padding: 0px 10px 0px 10px;
 }
 
-.post3 {
-  width: 70%;
+.post4 {
+  display: block;
+  background: white;
+  position: relative;
+  right: 5%;
+  width: 185px;
+  padding: 10px;
+  list-style: none;
 }
 
 h2 {
@@ -97,3 +115,19 @@ h3 {
   text-align: justify;
 }
 
+nav a {
+  color: yellow;
+}
+
+nav h3 {
+  background: rgb(155, 155, 155);
+  padding: 3px;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: rgb(156, 156, 156);
+  width: 100%;
+}
