@@ -36,7 +36,6 @@ body, ul, li, p {
   display: flex;
  }
 
-
 #tec {
   color: rgb(122, 121, 121);
   margin: 0%;
@@ -63,9 +62,14 @@ body, ul, li, p {
   padding: 10px;
   }
 
-main {
-  width: 660px;;
+section {
   margin: 0 auto;
+}
+
+main {
+  width: 660px;
+  margin: 0 auto;
+  
   }
 
 nav {
@@ -124,10 +128,13 @@ nav h3 {
   padding: 3px;
 }
 
-footer {
+nav footer {
   text-align: center;
   justify-content: center;
   margin: 0 auto;
   background: rgb(156, 156, 156);
-  width: 100%;
+  width: 660px ;
+  position: relative;
+  bottom: -780px;
+  right: 689px;
 }
